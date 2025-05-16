@@ -1,0 +1,42 @@
+- [ ] **Backend**: Implement User Management (CRUD, Auth)
+- [ ] **Backend**: Implement Match Management (CRUD)
+- [ ] **Backend**: Implement Team Management (CRUD)
+- [ ] **Backend**: Implement Basic Ratings System (Players, Referees, Teams)
+- [ ] **Backend**: Implement Admin Panel Core (User suspension, content moderation)
+- [ ] **Backend**: Database Schema Design & Setup (PostgreSQL)
+- [ ] **Backend**: API Documentation (Swagger/OpenAPI)
+- [ ] **Mobile App**: Project Setup (Flutter)
+- [ ] **Mobile App**: UI/UX Design Implementation (Dynamic animations, Sports theme, Multi-language)
+- [ ] **Mobile App**: User Authentication (Login, Registration, Profile Management)
+- [ ] **Mobile App**: Match Management (View, Create, Join, Manage Scores)
+- [ ] **Mobile App**: Team Management (View, Create, Join, Manage Roster)
+- [ ] **Mobile App**: Player/Referee/Team Ratings & Feedback
+- [ ] **Mobile App**: Basic Chat Functionality (Match-specific or Team-specific)
+- [ ] **Mobile App**: Push Notifications (Match updates, chat messages)
+- [ ] **Mobile App**: Admin Features (User management, content oversight)
+- [X] **Project Setup & Initial Planning**: Define features, tech stack, architecture, security, UI/UX, timeline.
+- [X] **Backend Development**: Setup NestJS, connect to DB, implement basic User auth (register/login).
+- [X] **Backend Development**: Implement User module (get/update profile).
+- [X] **Backend Development**: Implement Match module (CRUD operations).
+- [X] **Backend Development**: Implement Team module (CRUD operations).
+- [X] **Backend Development**: Implement Ratings module (CRUD operations).
+- [X] **Backend Development**: Implement Admin module (basic functionalities).
+- [X] **Mobile App**: Initial Flutter project setup, theming, localization (arb files), basic navigation, and placeholder screens for auth, profile, settings, match lists/details, team lists/details.
+- [X] **Mobile App**: Implement UI and basic logic for 'Create Match' screen.
+- [X] **Mobile App**: Implement UI and basic logic for 'Create Team' screen.
+- [X] **Mobile App**: Integrate image picker for profile and team logo uploads.
+- [X] **Mobile App**: Implement basic chat UI and service foundation.
+- [X] **Mobile App**: Implement push notification setup (e.g., Firebase Cloud Messaging) and basic handling.
+- [ ] **Integration**: Connect Mobile App to Backend APIs for User Authentication.
+- [ ] **Integration**: Connect Mobile App to Backend APIs for Match Management.
+- [ ] **Integration**: Connect Mobile App to Backend APIs for Team Management.
+- [ ] **Integration**: Connect Mobile App to Backend APIs for Ratings.
+- [ ] **Testing**: Unit tests for backend services.
+- [ ] **Testing**: Widget and unit tests for mobile app.
+- [ ] **Testing**: Integration testing between mobile and backend.
+- [ ] **Testing**: User Acceptance Testing (UAT).
+- [ ] **Deployment**: Prepare backend for deployment (Docker, etc.).
+- [ ] **Deployment**: Build and package mobile app (APK for Android, IPA for iOS).
+- [ ] **Documentation**: Finalize API documentation.
+- [ ] **Documentation**: Prepare user guide/manual for the app.
+- [ ] **Handover**: Deliver source code, documentation, and deployed application.
