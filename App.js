@@ -1,38 +1,19 @@
-import React from 'react';
-// Removed StyleSheet and View as they are not directly used here anymore for the main layout
-// import { StyleSheet, View } from 'react-native';
-import { StatusBar } from 'expo-status-bar';
+import { is_palindrome } from './utils/math.js';
 
-// Navigation imports
-import { NavigationContainer } from '@react-navigation/native';
-import { createNativeStackNavigator } from '@react-navigation/native-stack';
+console.log("Testing is_palindrome:");
 
-// Screen imports
-import RegistrationScreen from './screens/RegistrationScreen';
-
-// Create a stack navigator
-const Stack = createNativeStackNavigator();
-
-export default function App() {
-  return (
-    <NavigationContainer>
-      <Stack.Navigator>
-        <Stack.Screen 
-          name="Register" 
-          component={RegistrationScreen} 
-          options={{ headerShown: false }} // Hide header for this screen
-        />
-        {/* Future screens can be added here */}
-      </Stack.Navigator>
-      <StatusBar style="auto" />
-    </NavigationContainer>
-  );
-}
-
-// Styles are no longer needed here as the main container is NavigationContainer
-// const styles = StyleSheet.create({
-//   container: {
-//     flex: 1,
-//     backgroundColor: '#fff',
-//   },
-// });
+// Test cases
+console.log("Is 'madam' a palindrome?", is_palindrome("madam")); // Expected: true
+console.log("Is 'hello' a palindrome?", is_palindrome("hello")); // Expected: false
+console.log("Is 121 a palindrome?", is_palindrome(121)); // Expected: true
+console.log("Is 123 a palindrome?", is_palindrome(123)); // Expected: false
+console.log("Is -121 a palindrome?", is_palindrome(-121)); // Expected: true
+console.log("Is '' (empty string) a palindrome?", is_palindrome("")); // Expected: true
+console.log("Is 0 a palindrome?", is_palindrome(0)); // Expected: true
+console.log("Is -0 a palindrome?", is_palindrome(-0)); // Expected: true
+console.log("Is 'A man, a plan, a canal: Panama' a palindrome?", is_palindrome('A man, a plan, a canal: Panama')); // Expected: false (due to spaces and punctuation)
+console.log("Is 'Racecar!' a palindrome?", is_palindrome('Racecar!')); // Expected: false (due to capitalization and punctuation)
+console.log("Is 1 a palindrome?", is_palindrome(1)); // Expected: true
+console.log("Is '1' a palindrome?", is_palindrome('1')); // Expected: true
+console.log("Is null a palindrome?", is_palindrome(null)); // Expected: false
+console.log("Is undefined a palindrome?", is_palindrome(undefined)); // Expected: false
